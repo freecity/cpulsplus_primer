@@ -8,7 +8,7 @@ using std::endl;
 int main ()
 {
     vector<int> ivec(10,42);
-    int iarray[ivec.size()];
+    int iarray[ivec.size()];        //error： expect constant expression
 
     for (vector<int>::size_type ix = 0;
             ix != ivec.size(); ++ix)
